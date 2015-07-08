@@ -2,7 +2,7 @@ Package: com.anoyou.dbcountertest
 Version: 2.1-12
 Architecture: iphoneos-arm
 Maintainer: Anoyou <jzy0816@gmail.com>
-Filename: debs//com.anoyou.dbcountertest_2.1-12_iphoneos-arm.deb
+Filename: debs//com.anoyou.dbcountertest.deb
 Size: 16034
 MD5sum: a91a493bcf04129dacfb9fdb86c611e7
 SHA1: 880cc43d5d800b6f342aa1caf19e2befd9e6f9ce
