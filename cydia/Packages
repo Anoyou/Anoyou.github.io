@@ -5,9 +5,9 @@ Maintainer: Creatix
 Depends: mobilesubstrate
 Filename: ./debs//com.creatix.classicuniversalforce_0.0.1-132_iphoneos-arm.deb
 Size: 274678
-MD5sum: faad0fd880c2c237aa557f1e45ea6126
-SHA1: 5d7760d9a795e0144fd836b412c34c4739f29d66
-SHA256: a0791ca7dc13afc01dfd3d6b4ffaa02d2aae8053ff79c1bbf12e38d906c1ab29
+MD5sum: 08ab50416a8a8e3eaaca548df3b7254d
+SHA1: f18174dcae85838632d0d3efa42c61fe6a9a0295
+SHA256: f72cd79a76741d7656041b4cf3a0f64e862df6b18efd946580b176a3ae98006f
 Section: Tweaks
 Description: Classic UF's backup
 Author: Creatix
