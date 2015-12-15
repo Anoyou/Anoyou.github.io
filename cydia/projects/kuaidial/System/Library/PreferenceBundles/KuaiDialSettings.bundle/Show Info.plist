@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>EnableInfo</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Incoming Call</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>InfoIncomingCallNumber</string>
+			<key>label</key>
+			<string>Phone Number</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>InfoIncomingCallOrganization</string>
+			<key>label</key>
+			<string>Organization</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>InfoIncomingCallDepartment</string>
+			<key>label</key>
+			<string>Department</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>InfoIncomingCallJobTitle</string>
+			<key>label</key>
+			<string>JobTitle</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>InfoIncomingCallNickname</string>
+			<key>label</key>
+			<string>Nickname</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>InfoIncomingCallBirthday</string>
+			<key>label</key>
+			<string>Birthday</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>InfoIncomingCallNote</string>
+			<key>label</key>
+			<string>Note</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Outgoing Call</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>InfoOutgoingCallNumber</string>
+			<key>label</key>
+			<string>Phone Number</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Show Info</string>
+</dict>
+</plist>
+

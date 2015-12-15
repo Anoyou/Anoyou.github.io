@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>KuaiDial 是一款免费软件，如果您喜欢这款软件，可以考虑捐赠支持作者，您的慷慨支持一定会使作者更好地完善它。</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>您可以通过支付宝或 PayPal 的转账功能进行捐赠。</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>action</key>
+			<string>alipayAction:</string>
+			<key>default</key>
+			<string>linspike@gmail.com</string>
+			<key>label</key>
+			<string>支付宝账号</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>action</key>
+			<string>paypalAction:</string>
+			<key>default</key>
+			<string>linspike@gmail.com</string>
+			<key>label</key>
+			<string>PayPal 账号</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Donate</string>
+</dict>
+</plist>
+

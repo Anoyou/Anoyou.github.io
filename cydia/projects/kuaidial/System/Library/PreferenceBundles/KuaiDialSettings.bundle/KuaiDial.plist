@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>KDSettingsViewController</string>
+			<key>label</key>
+			<string>General</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>KDSettingsViewController</string>
+			<key>label</key>
+			<string>Dialer</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>KDSettingsViewController</string>
+			<key>label</key>
+			<string>Show Area</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>KDSettingsViewController</string>
+			<key>label</key>
+			<string>Show Avatar</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>KDSettingsViewController</string>
+			<key>label</key>
+			<string>Show Info</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>KDSettingsViewController</string>
+			<key>label</key>
+			<string>Prefix Dial</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>KDSettingsViewController</string>
+			<key>label</key>
+			<string>Blacklist</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>KDSettingsViewController</string>
+			<key>label</key>
+			<string>More</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>KDSettingsViewController</string>
+			<key>label</key>
+			<string>About</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>KuaiDial</string>
+</dict>
+</plist>
+

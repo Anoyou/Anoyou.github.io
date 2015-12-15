@@ -1,0 +1,6 @@
+#!/bin/sh
+
+chmod 666 /Library/KuaiDial/persons
+chmod +s /Library/KuaiDial/kdtool
+
+exit 0

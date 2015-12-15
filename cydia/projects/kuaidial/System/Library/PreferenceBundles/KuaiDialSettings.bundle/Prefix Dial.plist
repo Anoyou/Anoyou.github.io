@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>EnablePrefix</string>
+			<key>label</key>
+			<string>Auto Prefix Dial</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>PSDetailController</string>
+			<key>pane</key>
+			<string>PSTextEditingPane</string>
+			<key>keyboard</key>
+			<string>phone</string>
+			<key>default</key>
+			<string></string>
+			<key>key</key>
+			<string>PrefixNumber</string>
+			<key>label</key>
+			<string>Prefix Number</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>PSDetailController</string>
+			<key>pane</key>
+			<string>PSTextEditingPane</string>
+			<key>keyboard</key>
+			<string>phone</string>
+			<key>default</key>
+			<string></string>
+			<key>key</key>
+			<string>PrefixLocalAreaCode</string>
+			<key>label</key>
+			<string>Local Area Code</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>PSDetailController</string>
+			<key>pane</key>
+			<string>PSTextEditingPane</string>
+			<key>default</key>
+			<string></string>
+			<key>key</key>
+			<string>PrefixExcludeArea</string>
+			<key>label</key>
+			<string>Exclude Area</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>KDSettingsCustomViewController</string>
+			<key>get</key>
+			<string>getCustomCount:</string>
+			<key>_custom</key>
+			<string>exclude</string>
+			<key>label</key>
+			<string>Exclude List</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>PrefixKeypad</string>
+			<key>label</key>
+			<string>Keypad</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>PrefixContacts</string>
+			<key>label</key>
+			<string>Contacts</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>PrefixCallHistory</string>
+			<key>label</key>
+			<string>Call History</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>PrefixFavorites</string>
+			<key>label</key>
+			<string>Favorites</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Prefix Dial</string>
+</dict>
+</plist>
+

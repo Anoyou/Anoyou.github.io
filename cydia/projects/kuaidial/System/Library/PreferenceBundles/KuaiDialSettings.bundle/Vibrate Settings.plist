@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>vibrateTestAction:</string>
+			<key>label</key>
+			<string>Test Vibrate</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Intensity</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>0.3</real>
+			<key>max</key>
+			<real>4</real>
+			<key>min</key>
+			<real>0</real>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>key</key>
+			<string>ConnectedVibrateIntensity</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>ConnectedVibrateTotalDuration</string>
+			<key>label</key>
+			<string>Total Duration</string>
+			<key>default</key>
+			<real>0.3</real>
+			<key>validTitles</key>
+			<array>
+				<string>0 sec</string>
+				<string>0.1 sec</string>
+				<string>0.2 sec</string>
+				<string>0.3 sec</string>
+				<string>0.4 sec</string>
+				<string>0.5 sec</string>
+				<string>0.6 sec</string>
+				<string>0.7 sec</string>
+				<string>0.8 sec</string>
+				<string>0.9 sec</string>
+				<string>1 sec</string>
+				<string>1.1 sec</string>
+				<string>1.2 sec</string>
+				<string>1.3 sec</string>
+				<string>1.4 sec</string>
+				<string>1.5 sec</string>
+				<string>1.6 sec</string>
+				<string>1.7 sec</string>
+				<string>1.8 sec</string>
+				<string>1.9 sec</string>
+				<string>2 sec</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<real>0</real>
+				<real>0.1</real>
+				<real>0.2</real>
+				<real>0.3</real>
+				<real>0.4</real>
+				<real>0.5</real>
+				<real>0.6</real>
+				<real>0.7</real>
+				<real>0.8</real>
+				<real>0.9</real>
+				<real>1</real>
+				<real>1.1</real>
+				<real>1.2</real>
+				<real>1.3</real>
+				<real>1.4</real>
+				<real>1.5</real>
+				<real>1.6</real>
+				<real>1.7</real>
+				<real>1.8</real>
+				<real>1.9</real>
+				<real>2</real>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>ConnectedVibrateOnDuration</string>
+			<key>label</key>
+			<string>On Duration</string>
+			<key>default</key>
+			<real>0.3</real>
+			<key>validTitles</key>
+			<array>
+				<string>0 sec</string>
+				<string>0.1 sec</string>
+				<string>0.2 sec</string>
+				<string>0.3 sec</string>
+				<string>0.4 sec</string>
+				<string>0.5 sec</string>
+				<string>0.6 sec</string>
+				<string>0.7 sec</string>
+				<string>0.8 sec</string>
+				<string>0.9 sec</string>
+				<string>1 sec</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<real>0</real>
+				<real>0.1</real>
+				<real>0.2</real>
+				<real>0.3</real>
+				<real>0.4</real>
+				<real>0.5</real>
+				<real>0.6</real>
+				<real>0.7</real>
+				<real>0.8</real>
+				<real>0.9</real>
+				<real>1</real>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>ConnectedVibrateOffDuration</string>
+			<key>label</key>
+			<string>Off Duration</string>
+			<key>default</key>
+			<real>0</real>
+			<key>validTitles</key>
+			<array>
+				<string>0 sec</string>
+				<string>0.1 sec</string>
+				<string>0.2 sec</string>
+				<string>0.3 sec</string>
+				<string>0.4 sec</string>
+				<string>0.5 sec</string>
+				<string>0.6 sec</string>
+				<string>0.7 sec</string>
+				<string>0.8 sec</string>
+				<string>0.9 sec</string>
+				<string>1 sec</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<real>0</real>
+				<real>0.1</real>
+				<real>0.2</real>
+				<real>0.3</real>
+				<real>0.4</real>
+				<real>0.5</real>
+				<real>0.6</real>
+				<real>0.7</real>
+				<real>0.8</real>
+				<real>0.9</real>
+				<real>1</real>
+			</array>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Vibrate Settings</string>
+</dict>
+</plist>
+

@@ -1,0 +1,205 @@
+﻿"Enable"="开启";
+"Disable"="关闭";
+"Edit"="编辑";
+"Done"="完成";
+"Cancel"="取消";
+"OK"="确定";
+"None"="无";
+"Default"="默认";
+
+"Incoming Call"="来电";
+"Outgoing Call"="去电";
+"In Call"="通话中";
+"Call History"="通话记录";
+"Contacts"="通讯录";
+"Keypad"="拨号键盘";
+"Favorites"="个人收藏";
+"SMS"="短信";
+"Notification Center"="通知中心";
+
+"Add Number"="添加号码";
+"Edit Number"="编辑号码";
+"Phone Number"="电话号码";
+"Name"="名称";
+
+"General"="通用";
+"Enable KuaiDial"="总开关";
+"Reset Settings"="还原设置";
+"Reset All Settings"="恢复所有设置";
+"Clear Data"="清除存储数据";
+
+"Dialer"="快捷拨号";
+"T9 Table Database"="T9码表数据库";
+"Custom T9 Table"="自定义T9码表";
+"Add Code Table"="添加码表";
+"Edit Code Table"="编辑码表";
+"Character"="字符";
+"T9 Keyboard"="T9键盘";
+"Dial List Of Priority"="优先拨号列表";
+"Format Phone Number"="格式化电话号码";
+"Sort Optimization"="优化排序";
+"Delete Button"="下排删除按钮";
+"Speed Dial"="一键拨号";
+"Auto Clear Number"="退出时清空号码";
+"Name Order"="姓名顺序";
+"First, Last"="名，姓";
+"Last, First"="姓，名";
+"Number Highlight Color"="号码高亮颜色";
+"Name Highlight Color"="姓名高亮颜色";
+"List Highlight Color"="列表高亮颜色";
+"Blue"="蓝色";
+"Green"="绿色";
+"Red"="红色";
+"Search"="匹配";
+"JianPin"="简拼";
+"PinYin"="全拼";
+"English"="英文";
+"Company"="公司";
+"Any Name Position"="任意姓名位置";
+"Any Number Position"="任意号码位置";
+"Enable Cache"="使用缓存";
+
+"Show Area"="显示归属地";
+"Show Area Name"="显示归属地";
+"Show Area Type"="显示归属类型";
+"Area Database"="归属地数据库";
+"Custom Area"="自定义归属地";
+"Add Area"="添加归属地";
+"Edit Area"="编辑归属地";
+"Area"="归属地";
+"Detail"="详细";
+"Show Only Strangers"="仅显示陌生人";
+"Special Service Number"="特服号";
+"Replace Text"="替换系统文字";
+"Style"="样式";
+"System"="系统";
+"New Line"="独立";
+"No Brackets"="无括号";
+
+"Show Avatar"="显示照片";
+"SMS List"="短信列表";
+"SMS Chat"="短信对话";
+"Keypad List"="拨号键盘列表";
+"My Info"="我的信息";
+
+"Show Info"="显示信息";
+"Organization"="公司";
+"Department"="部门";
+"JobTitle"="职称";
+"Nickname"="昵称";
+"Birthday"="生日";
+"Note"="备注";
+"Background"="背景";
+
+"Prefix Dial"="IP拨号";
+"Auto Prefix Dial"="自动IP拨号";
+"Prefix Number"="IP拨号前缀";
+"Local Area Code"="本地区号";
+"Exclude Area"="排除地区";
+"Exclude List"="排除列表";
+"Prefix"="前缀";
+
+"Blacklist"="黑名单";
+"Whitelist"="白名单";
+"Block Mode"="拦截模式";
+"Whitelist Only"="仅接听白名单";
+"Block All Calls"="拦截所有来电";
+"Block Action"="拦截动作";
+"Hangup"="挂断来电";
+"Ignore"="无人接听";
+"Busy Signal"="忙音";
+"Blocking Remind"="拦截时提醒";
+"Vibrate"="震动";
+"Sound"="声音";
+"Vibrate And Sound"="震动和声音";
+"Block Strangers"="拦截陌生人";
+"Block Blocked Caller"="拦截无号码来电";
+"Block Area"="拦截地区";
+
+"More"="更多";
+
+"Connected Vibrate"="接通震动";
+"Vibrate Settings"="震动设置";
+"Test Vibrate"="震动测试";
+"Intensity"="强度";
+"Total Duration"="总时间";
+"On Duration"="持续时间";
+"Off Duration"="间隔时间";
+"0 seconds"="0 秒";
+"0 sec"="0 秒";
+"0.1 sec"="0.1 秒";
+"0.2 sec"="0.2 秒";
+"0.3 sec"="0.3 秒";
+"0.4 sec"="0.4 秒";
+"0.5 sec"="0.5 秒";
+"0.6 sec"="0.6 秒";
+"0.7 sec"="0.7 秒";
+"0.8 sec"="0.8 秒";
+"0.9 sec"="0.9 秒";
+"1 sec"="1 秒";
+"1.1 sec"="1.1 秒";
+"1.2 sec"="1.2 秒";
+"1.3 sec"="1.3 秒";
+"1.4 sec"="1.4 秒";
+"1.5 sec"="1.5 秒";
+"1.6 sec"="1.6 秒";
+"1.7 sec"="1.7 秒";
+"1.8 sec"="1.8 秒";
+"1.9 sec"="1.9 秒";
+"2 sec"="2 秒";
+
+"Use Decline Button"="锁屏时显示接通/挂断按钮";
+"Delay Ring"="延迟铃声";
+"2.5 sec"="2.5 秒";
+"3 sec"="3 秒";
+"3.5 sec"="3.5 秒";
+"4 sec"="4 秒";
+"4.5 sec"="4.5 秒";
+"5 sec"="5 秒";
+"6 sec"="6 秒";
+"7 sec"="7 秒";
+"8 sec"="8 秒";
+"9 sec"="9 秒";
+"10 sec"="10 秒";
+
+"Missed Call Ring Duration"="记录未接来电响铃时间";
+"Call History Limit"="通话记录条数限制";
+"100 (Default)"="100 (系统默认)";
+"Modify Call Lifetime"="修改累计通话时间";
+"days"="天";
+"hours"="小时";
+"minutes"="分钟";
+"seconds"="秒";
+"Unit: Minutes"="单位：分钟";
+"Alert"="提醒";
+"Are you sure you want to continue?"="该功能需要修改通话记录数据库，确定要继续？";
+"Succeed!"="修改成功！请在下次更新系统时，先关闭该功能再进行更新，否则可能会造成通话记录异常。";
+"Failed!"="修改失败！";
+
+"Select Group"="选择群组";
+
+"Control Center"="控制中心";
+"Home"="主屏幕";
+"Multitasking"="多任务";
+"Lock Screen"="锁定屏幕";
+"Cellular Data"="蜂窝移动网络";
+"Timer"="计时器";
+"Calculator"="计算器";
+"Camera"="照相机";
+"Bluetooth"="蓝牙";
+"Do Not Disturb"="勿扰模式";
+
+"Carrier Name"="运营商名称";
+
+"Select Contacts"="选择通讯录";
+"Select Call History"="选择通话记录";
+"Clear All"="清除所有";
+"Respring"="注销重启桌面";
+"Copy"="拷贝";
+
+"About"="关于";
+"Version"="版本";
+"Weibo"="微博";
+"Email"="电子信箱";
+"Donate"="捐赠";
+

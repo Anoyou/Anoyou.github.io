@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>110</key>
+	<string>报警</string>
+	<key>119</key>
+	<string>火警</string>
+	<key>120</key>
+	<string>急救</string>
+	<key>122</key>
+	<string>交通事故报警</string>
+	<key>911</key>
+	<string></string>
+</dict>
+</plist>

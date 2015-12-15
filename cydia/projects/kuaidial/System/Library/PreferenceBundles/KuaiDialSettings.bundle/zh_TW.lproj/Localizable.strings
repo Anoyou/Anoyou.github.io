@@ -1,0 +1,205 @@
+﻿"Enable"="開啟";
+"Disable"="關閉";
+"Edit"="編輯";
+"Done"="完成";
+"Cancel"="取消";
+"OK"="確定";
+"None"="無";
+"Default"="預設值";
+
+"Incoming Call"="來電";
+"Outgoing Call"="去電";
+"In Call"="通話中";
+"Call History"="通話記錄";
+"Contacts"="聯絡資訊";
+"Keypad"="數字鍵盤";
+"Favorites"="常用聯絡資訊";
+"SMS"="訊息";
+"Notification Center"="通知中心";
+
+"Add Number"="新增號碼";
+"Edit Number"="編輯號碼";
+"Phone Number"="電話號碼";
+"Name"="名称";
+
+"General"="一般";
+"Enable KuaiDial"="總開關";
+"Reset Settings"="還原設定";
+"Reset All Settings"="還原預設值";
+"Clear Data"="清除資料";
+
+"Dialer"="快捷撥號";
+"T9 Table Database"="T9碼表資料庫";
+"Custom T9 Table"="自定義T9碼表";
+"Add Code Table"="新增碼表";
+"Edit Code Table"="編輯碼表";
+"Character"="字元";
+"T9 Keyboard"="T9鍵盤";
+"Dial List Of Priority"="優先撥號列表";
+"Format Phone Number"="格式化電話號碼";
+"Sort Optimization"="优化排序";
+"Delete Button"="下排删除按鈕";
+"Speed Dial"="一键撥號";
+"Auto Clear Number"="退出時清空號碼";
+"Name Order"="姓名順序";
+"First, Last"="名，姓";
+"Last, First"="姓，名";
+"Number Highlight Color"="号码標示顏色";
+"Name Highlight Color"="姓名標示顏色";
+"List Highlight Color"="列表標示顏色";
+"Blue"="藍色";
+"Green"="綠色";
+"Red"="紅色";
+"Search"="搜尋";
+"JianPin"="簡拼";
+"PinYin"="拼音";
+"English"="英文";
+"Company"="公司";
+"Any Name Position"="任意姓名位置";
+"Any Number Position"="任意號碼位置";
+"Enable Cache"="使用暫存";
+
+"Show Area"="显示地區";
+"Show Area Name"="显示地區";
+"Show Area Type"="顯示地區類型";
+"Area Database"="地區資料庫";
+"Custom Area"="自定義地區";
+"Add Area"="新增地區";
+"Edit Area"="編輯地區";
+"Area"="地區";
+"Detail"="詳細";
+"Show Only Strangers"="僅顯示陌生號碼";
+"Special Service Number"="特服號";
+"Replace Text"="替換系統文字";
+"Style"="樣式";
+"System"="系統";
+"New Line"="獨立";
+"No Brackets"="無括號";
+
+"Show Avatar"="顯示照片";
+"SMS List"="訊息列表";
+"SMS Chat"="訊息对话";
+"Keypad List"="撥號鍵盤列表";
+"My Info"="我的信息";
+
+"Show Info"="顯示信息";
+"Organization"="公司";
+"Department"="部门";
+"JobTitle"="职称";
+"Nickname"="昵称";
+"Birthday"="生日";
+"Note"="备注";
+"Background"="背景";
+
+"Prefix Dial"="IP撥號";
+"Auto Prefix Dial"="自動IP撥號";
+"Prefix Number"="IP撥號前綴";
+"Local Area Code"="本地區碼";
+"Exclude Area"="排除地區";
+"Exclude List"="排除列表";
+"Prefix"="前綴";
+
+"Blacklist"="黑名單";
+"Whitelist"="白名單";
+"Block Mode"="攔截模式";
+"Whitelist Only"="僅接聽白名單";
+"Block All Calls"="攔截所有來電";
+"Block Action"="攔截動作";
+"Hangup"="掛斷來電";
+"Ignore"="無人接聽";
+"Busy Signal"="忙線音";
+"Blocking Remind"="攔截時提醒";
+"Vibrate"="震動";
+"Sound"="聲音";
+"Vibrate And Sound"="震動及聲音";
+"Block Strangers"="攔截陌生號碼";
+"Block Blocked Caller"="攔截未知號碼來電";
+"Block Area"="攔截地區";
+
+"More"="更多";
+
+"Connected Vibrate"="接通震動";
+"Vibrate Settings"="震動設定";
+"Test Vibrate"="震動測試";
+"Intensity"="強度";
+"Total Duration"="總時間";
+"On Duration"="持續時間";
+"Off Duration"="間隔時間";
+"0 seconds"="0 秒";
+"0 sec"="0 秒";
+"0.1 sec"="0.1 秒";
+"0.2 sec"="0.2 秒";
+"0.3 sec"="0.3 秒";
+"0.4 sec"="0.4 秒";
+"0.5 sec"="0.5 秒";
+"0.6 sec"="0.6 秒";
+"0.7 sec"="0.7 秒";
+"0.8 sec"="0.8 秒";
+"0.9 sec"="0.9 秒";
+"1 sec"="1 秒";
+"1.1 sec"="1.1 秒";
+"1.2 sec"="1.2 秒";
+"1.3 sec"="1.3 秒";
+"1.4 sec"="1.4 秒";
+"1.5 sec"="1.5 秒";
+"1.6 sec"="1.6 秒";
+"1.7 sec"="1.7 秒";
+"1.8 sec"="1.8 秒";
+"1.9 sec"="1.9 秒";
+"2 sec"="2 秒";
+
+"Use Decline Button"="鎖屏時顯示接通/掛斷按鈕";
+"Delay Ring"="延遲鈴聲";
+"2.5 sec"="2.5 秒";
+"3 sec"="3 秒";
+"3.5 sec"="3.5 秒";
+"4 sec"="4 秒";
+"4.5 sec"="4.5 秒";
+"5 sec"="5 秒";
+"6 sec"="6 秒";
+"7 sec"="7 秒";
+"8 sec"="8 秒";
+"9 sec"="9 秒";
+"10 sec"="10 秒";
+
+"Missed Call Ring Duration"="顯示未接來電響鈴時間";
+"Call History Limit"="通話記錄上限";
+"100 (Default)"="100 (預設)";
+"Modify Call Lifetime"="修改纍記通話時間";
+"days"="天";
+"hours"="小時";
+"minutes"="分鍾";
+"seconds"="秒";
+"Unit: Minutes"="單位：分鍾";
+"Alert"="提醒";
+"Are you sure you want to continue?"="该功能需要修改通话记录数据库，确定要继续？";
+"Succeed!"="修改成功！请在下次更新系统时，先关闭该功能再进行更新，否则可能会造成通话记录异常。";
+"Failed!"="修改失败！";
+
+"Select Group"="選擇群組";
+
+"Control Center"="控制中心";
+"Home"="主畫面";
+"Multitasking"="多工處理";
+"Lock Screen"="鎖定熒幕";
+"Cellular Data"="行動網路";
+"Timer"="計時器";
+"Calculator"="計算機";
+"Camera"="相機";
+"Bluetooth"="藍牙";
+"Do Not Disturb"="勿擾模式";
+
+"Carrier Name"="运营商名称";
+
+"Select Contacts"="選擇聯絡人";
+"Select Call History"="選擇通話記錄";
+"Clear All"="清除所有";
+"Respring"="注销重启桌面";
+"Copy"="拷貝";
+
+"About"="關於";
+"Version"="版本";
+"Weibo"="微博";
+"Email"="電子信箱";
+"Donate"="捐贈";
+

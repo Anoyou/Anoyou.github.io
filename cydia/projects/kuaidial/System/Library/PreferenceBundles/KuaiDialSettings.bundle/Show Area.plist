@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>EnableArea</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>titlesDataSource</key>
+			<string>areaTitles:</string>
+			<key>valuesDataSource</key>
+			<string>areaValues:</string>
+			<key>valueLocalized</key>
+			<true/>
+			<key>default</key>
+			<string>China</string>
+			<key>key</key>
+			<string>AreaDatabase</string>
+			<key>label</key>
+			<string>Area Database</string>
+			<key>PostNotification</key>
+			<string>KDAreaChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>KDSettingsCustomViewController</string>
+			<key>get</key>
+			<string>getCustomCount:</string>
+			<key>_custom</key>
+			<string>area</string>
+			<key>label</key>
+			<string>Custom Area</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameIncomingCall</string>
+			<key>label</key>
+			<string>Incoming Call</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameOutgoingCall</string>
+			<key>label</key>
+			<string>Outgoing Call</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameCallHistory</string>
+			<key>label</key>
+			<string>Call History</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameContacts</string>
+			<key>label</key>
+			<string>Contacts</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameKeypad</string>
+			<key>label</key>
+			<string>Keypad</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameKeypadList</string>
+			<key>label</key>
+			<string>Keypad List</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameSMS</string>
+			<key>label</key>
+			<string>SMS</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameNotification</string>
+			<key>label</key>
+			<string>Notification Center</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaNameInCall</string>
+			<key>label</key>
+			<string>In Call</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>KDSettingsViewController</string>
+			<key>label</key>
+			<string>Detail</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaAlone</string>
+			<key>label</key>
+			<string>Special Service Number</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaOnlyStrangers</string>
+			<key>label</key>
+			<string>Show Only Strangers</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Show Area</string>
+</dict>
+</plist>
+

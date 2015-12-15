@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>key</key>
+			<string>ControlCenterHome</string>
+			<key>label</key>
+			<string>Home</string>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Timer</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>key</key>
+			<string>ControlCenterMultitasking</string>
+			<key>label</key>
+			<string>Multitasking</string>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Calculator</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>key</key>
+			<string>ControlCenterLockScreen</string>
+			<key>label</key>
+			<string>Lock Screen</string>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Camera</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>key</key>
+			<string>ControlCenterCellularData</string>
+			<key>label</key>
+			<string>Cellular Data</string>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Bluetooth</string>
+				<string>Do Not Disturb</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Control Center</string>
+</dict>
+</plist>
+

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Outgoing Call</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>EnableConnectedVibrate</string>
+			<key>label</key>
+			<string>Connected Vibrate</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>KDSettingsViewController</string>
+			<key>label</key>
+			<string>Vibrate Settings</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Incoming Call</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>IncomingCallDeclineButton</string>
+			<key>label</key>
+			<string>Use Decline Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>key</key>
+			<string>IncomingCallDelayRing</string>
+			<key>label</key>
+			<string>Delay Ring</string>
+			<key>validTitles</key>
+			<array>
+				<string>Disable</string>
+				<string>1 sec</string>
+				<string>1.5 sec</string>
+				<string>2 sec</string>
+				<string>2.5 sec</string>
+				<string>3 sec</string>
+				<string>3.5 sec</string>
+				<string>4 sec</string>
+				<string>4.5 sec</string>
+				<string>5 sec</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<real>0</real>
+				<real>1</real>
+				<real>1.5</real>
+				<real>2</real>
+				<real>2.5</real>
+				<real>3</real>
+				<real>3.5</real>
+				<real>4</real>
+				<real>4.5</real>
+				<real>5</real>
+			</array>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Call History</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>CallHistoryRingDuration</string>
+			<key>label</key>
+			<string>Missed Call Ring Duration</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>get</key>
+			<string>getCallHistoryLimit:</string>
+			<key>set</key>
+			<string>setCallHistoryLimit:forSpecifier:</string>
+			<key>label</key>
+			<string>Call History Limit</string>
+			<key>validTitles</key>
+			<array>
+				<string>100 (Default)</string>
+				<string>200</string>
+				<string>300</string>
+				<string>400</string>
+				<string>500</string>
+				<string>600</string>
+				<string>700</string>
+				<string>800</string>
+				<string>900</string>
+				<string>1000</string>
+				<string>2000</string>
+				<string>3000</string>
+				<string>4000</string>
+				<string>5000</string>
+				<string>10000</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>100</integer>
+				<integer>200</integer>
+				<integer>300</integer>
+				<integer>400</integer>
+				<integer>500</integer>
+				<integer>600</integer>
+				<integer>700</integer>
+				<integer>800</integer>
+				<integer>900</integer>
+				<integer>1000</integer>
+				<integer>2000</integer>
+				<integer>3000</integer>
+				<integer>4000</integer>
+				<integer>5000</integer>
+				<integer>10000</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>KDSettingsCustomViewController</string>
+			<key>_custom</key>
+			<string>calltime</string>
+			<key>label</key>
+			<string>Modify Call Lifetime</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>SMS</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>SMSSelectGroup</string>
+			<key>label</key>
+			<string>Select Group</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSDetailController</string>
+			<key>pane</key>
+			<string>PSTextEditingPane</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<string></string>
+			<key>key</key>
+			<string>CarrierName</string>
+			<key>label</key>
+			<string>Carrier Name</string>
+			<key>placeholder</key>
+			<string>Name</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>detail</key>
+			<string>KDSettingsViewController</string>
+			<key>label</key>
+			<string>Control Center</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>More</string>
+</dict>
+</plist>
+

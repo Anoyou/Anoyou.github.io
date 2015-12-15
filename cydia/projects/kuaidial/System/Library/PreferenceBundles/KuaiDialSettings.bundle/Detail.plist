@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Incoming Call</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameIncomingCall</string>
+			<key>label</key>
+			<string>Show Area Name</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaTypeIncomingCall</string>
+			<key>label</key>
+			<string>Show Area Type</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaReplaceTextIncomingCall</string>
+			<key>label</key>
+			<string>Replace Text</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>key</key>
+			<string>AreaStyleIncomingCall</string>
+			<key>label</key>
+			<string>Style</string>
+			<key>validTitles</key>
+			<array>
+				<string>System</string>
+				<string>New Line</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Outgoing Call</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameOutgoingCall</string>
+			<key>label</key>
+			<string>Show Area Name</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaTypeOutgoingCall</string>
+			<key>label</key>
+			<string>Show Area Type</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaReplaceTextOutgoingCall</string>
+			<key>label</key>
+			<string>Replace Text</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>key</key>
+			<string>AreaStyleOutgoingCall</string>
+			<key>label</key>
+			<string>Style</string>
+			<key>validTitles</key>
+			<array>
+				<string>System</string>
+				<string>New Line</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Call History</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameCallHistory</string>
+			<key>label</key>
+			<string>Show Area Name</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaTypeCallHistory</string>
+			<key>label</key>
+			<string>Show Area Type</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaReplaceTextCallHistory</string>
+			<key>label</key>
+			<string>Replace Text</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contacts</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameContacts</string>
+			<key>label</key>
+			<string>Show Area Name</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaTypeContacts</string>
+			<key>label</key>
+			<string>Show Area Type</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaReplaceTextContacts</string>
+			<key>label</key>
+			<string>Replace Text</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Keypad</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameKeypad</string>
+			<key>label</key>
+			<string>Show Area Name</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaTypeKeypad</string>
+			<key>label</key>
+			<string>Show Area Type</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaReplaceTextKeypad</string>
+			<key>label</key>
+			<string>Replace Text</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Keypad List</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameKeypadList</string>
+			<key>label</key>
+			<string>Show Area Name</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaTypeKeypadList</string>
+			<key>label</key>
+			<string>Show Area Type</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>SMS</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameSMS</string>
+			<key>label</key>
+			<string>Show Area Name</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaTypeSMS</string>
+			<key>label</key>
+			<string>Show Area Type</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Notification Center</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AreaNameNotification</string>
+			<key>label</key>
+			<string>Show Area Name</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaTypeNotification</string>
+			<key>label</key>
+			<string>Show Area Type</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>In Call</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaNameInCall</string>
+			<key>label</key>
+			<string>Show Area Name</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaTypeInCall</string>
+			<key>label</key>
+			<string>Show Area Type</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>More</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaNameMore</string>
+			<key>label</key>
+			<string>Show Area Name</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaTypeMore</string>
+			<key>label</key>
+			<string>Show Area Type</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AreaReplaceTextMore</string>
+			<key>label</key>
+			<string>Replace Text</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Detail</string>
+</dict>
+</plist>
+

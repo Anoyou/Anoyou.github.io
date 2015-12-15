@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>EnableAvatar</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AvatarCallHistory</string>
+			<key>label</key>
+			<string>Call History</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AvatarContacts</string>
+			<key>label</key>
+			<string>Contacts</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AvatarSMS</string>
+			<key>label</key>
+			<string>SMS List</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AvatarSMSChat</string>
+			<key>label</key>
+			<string>SMS Chat</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<true/>
+			<key>key</key>
+			<string>AvatarKeypadList</string>
+			<key>label</key>
+			<string>Keypad List</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>AvatarKeypad</string>
+			<key>label</key>
+			<string>Keypad</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>kuaidial</string>
+			<key>action</key>
+			<string>myInfoAction:</string>
+			<key>get</key>
+			<string>getMyInfo:</string>
+			<key>default</key>
+			<string></string>
+			<key>key</key>
+			<string>MyInfo</string>
+			<key>label</key>
+			<string>My Info</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Show Avatar</string>
+</dict>
+</plist>
+
