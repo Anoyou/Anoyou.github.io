@@ -5,9 +5,9 @@ Maintainer: Creatix
 Depends: mobilesubstrate
 Filename: ./debs//com.creatix.classicuniversalforce_0.0.1-132_iphoneos-arm.deb
 Size: 274732
-MD5sum: 8d28d2b83029717357bf4554924a7c9e
-SHA1: 236a78d1ee7248c109571a33dfeced1a1c3134db
-SHA256: c0f78f56e2fd65ab469276256e12b671bfd08cd075eee7cba4785a644abb5c9d
+MD5sum: 199546dbfed6aa04a6a1b78b75650d1f
+SHA1: 88161136c06d69ec5364c84c7517621834a7aeb8
+SHA256: 4f48da5ec48c4af3bcce0afbb5e869a103e1cc5f715774792d3ee62347d811a2
 Section: Tweaks
 Description: UniversalForce 0.0.1-132's backup.
 Author: Creatix
@@ -23,14 +23,13 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
 Conflicts: kuaidial
 Replaces: kuaidial
 Filename: ./debs//com.linspike.kuaidial_1.0.1a2-14_iphoneos-arm.deb
-Size: 804356
-MD5sum: 574c0cd73274441fd4dcd2a66130ac78
-SHA1: c6a90f277dae34ced5a233afb5f080a58615d3cc
-SHA256: 814d93ff1a88ef8b43d79ffd80cf682616905d77bfceeb085ac6f0c20fa90528
+Size: 804328
+MD5sum: e6c2d7f9fad5823b6b79daccf5ecd1f6
+SHA1: c9e932479e035f1c7679102ef148dffa9a178dcc
+SHA256: 7f0cc2309f554589dd06f4dba6c3ce8791b4fcee8f88370e8f7b1500326247f4
 Section: Tweaks
 Priority: optional
-Description: adds useful functions to Phone app
+Description: 实际为1.0.1a2-13的备份。
 Author: linspike <linspike@gmail.com>
-Depiction: 实际为 1.0.1a2-13 的备份。
 Name: KuaiDial
 

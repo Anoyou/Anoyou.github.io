@@ -10,5 +10,4 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
 Conflicts: kuaidial
 Replaces: kuaidial
 Author: linspike <linspike@gmail.com>
-Description: adds useful functions to Phone app
-Depiction: 实际为 1.0.1a2-13 的备份。
+Description: 实际为1.0.1a2-13的备份。
