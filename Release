@@ -1,8 +1,8 @@
-﻿Origin: Anoyou
-Label: Anoyou's repo
+﻿Origin: Anoyou's Repo
+Label: Anoyou's Repo
 Suite: stable
 Version: 1.0
 Codename: Anoyou
 Architectures: iphoneos-arm
 Components: main
-Description: Anoyou's Cydia Repository
+Description: Anoyou's Repo
