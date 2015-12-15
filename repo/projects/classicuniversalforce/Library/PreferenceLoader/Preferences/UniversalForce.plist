@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = UniversalForce;
+	cell = PSLinkCell;
+	detail = UniversalForceListController;
+	icon = UniversalForce.png;
+	isController = 1;
+	label = UniversalForce;
+    };
+}

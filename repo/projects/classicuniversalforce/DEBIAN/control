@@ -1,0 +1,9 @@
+Package: com.creatix.classicuniversalforce
+Name: ClassicUniversalForce
+Depends: mobilesubstrate
+Version: 0.0.1-132
+Architecture: iphoneos-arm
+Description: Classic UF's backup
+Maintainer: Creatix
+Author: Creatix
+Section: Tweaks
