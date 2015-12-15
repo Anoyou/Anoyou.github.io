@@ -5,11 +5,30 @@ Maintainer: Creatix
 Depends: mobilesubstrate
 Filename: ./debs//com.creatix.classicuniversalforce_0.0.1-132_iphoneos-arm.deb
 Size: 274678
-MD5sum: 08ab50416a8a8e3eaaca548df3b7254d
-SHA1: f18174dcae85838632d0d3efa42c61fe6a9a0295
-SHA256: f72cd79a76741d7656041b4cf3a0f64e862df6b18efd946580b176a3ae98006f
+MD5sum: d3d078f79974fa64a22c97140d970700
+SHA1: d25221918c6a315e78c7f689af5b5689d069d538
+SHA256: d5e3c3cd2cdaff4d4d2861fd9a46e2612d3d78025095fc5e1904a5f5c02e907f
 Section: Tweaks
 Description: Classic UF's backup
 Author: Creatix
 Name: ClassicUniversalForce
+
+Package: com.linspike.kuaidial
+Version: 1.0.1a2-13
+Architecture: iphoneos-arm
+Maintainer: linspike <linspike@gmail.com>
+Installed-Size: 3999
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
+Conflicts: kuaidial-beta
+Replaces: kuaidial-beta
+Filename: ./debs//kuaidial_1.0.1a2-13.deb
+Size: 576626
+MD5sum: e03512156c0465a803d07cee351720f3
+SHA1: 584ff4e49afb49e8bb05984168f7c2445bdb2aea
+SHA256: fb91213088b7b62c7fc05f23ba7c5252ff78700ea5de1c934077aa0e0da97323
+Section: Tweaks
+Priority: optional
+Description: adds useful functions to Phone app
+Author: linspike <linspike@gmail.com>
+Name: KuaiDial
 
