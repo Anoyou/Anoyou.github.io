@@ -4,10 +4,10 @@ Section: Tweaks
 Installed-Size: 3999
 Maintainer: linspike <linspike@gmail.com>
 Architecture: iphoneos-arm
-Version: 1.0.1a2-13
+Version: 1.0.1a2-13-backup
 Name: KuaiDial
 Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
-Conflicts: kuaidial-beta
-Replaces: kuaidial-beta
+Conflicts: kuaidial
+Replaces: kuaidial
 Author: linspike <linspike@gmail.com>
 Description: adds useful functions to Phone app

@@ -3,8 +3,7 @@ Name: ClassicUniversalForce
 Depends: mobilesubstrate
 Version: 0.0.1-132
 Architecture: iphoneos-arm
-Description: Classic UniversalForce's backup.
- 经典 UF 0.0.1-132 版备份，更新键盘3D Touch前的最后一版。
+Description: Classic UniversalForce's backup.经典 UF 0.0.1-132 版的备份，更新键盘3D Touch前的最后一版。
 Maintainer: Creatix
 Author: Creatix
 Section: Tweaks

@@ -4,29 +4,28 @@ Architecture: iphoneos-arm
 Maintainer: Creatix
 Depends: mobilesubstrate
 Filename: ./debs//com.creatix.classicuniversalforce_0.0.1-132_iphoneos-arm.deb
-Size: 274782
-MD5sum: 3090c801ab06cf43f18b6761f4e2d0bf
-SHA1: f8d16b8becfc766e9949a3dc2e8c8b2d9801d104
-SHA256: a1fa4593e37bce5dfb9986debbe01c8e157bfbeba479e4eb84cc0ba9355dc9ec
+Size: 274788
+MD5sum: e9f642a30ca8888208eb9d3ccb61224f
+SHA1: f2398de0a173dfe97ead752067cf61d5809c5de5
+SHA256: 07078f22efd5a77a61a6b08d0b17606d186eec862934a71289a2f5d3ea34f197
 Section: Tweaks
-Description: Classic UniversalForce's backup.
- 经典 UF 0.0.1-132 版备份，更新键盘3D Touch前的最后一版。
+Description: Classic UniversalForce's backup.经典 UF 0.0.1-132 版的备份，更新键盘3D Touch前的最后一版。
 Author: Creatix
 Name: ClassicUniversalForce
 
 Package: com.linspike.kuaidial
-Version: 1.0.1a2-13
+Version: 1.0.1a2-13-backup
 Architecture: iphoneos-arm
 Maintainer: linspike <linspike@gmail.com>
 Installed-Size: 3999
 Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
-Conflicts: kuaidial-beta
-Replaces: kuaidial-beta
-Filename: ./debs//com.linspike.kuaidial_1.0.1a2-13_iphoneos-arm.deb
-Size: 804308
-MD5sum: 3c11d379795dffe1665aa860e9adb286
-SHA1: 466b24c179b3aa5d50a7f431238995542169a12f
-SHA256: 6bd67948cd0156158650fd1e310f6c3c3f727c59670b1cbc0dd43ba1d85d3944
+Conflicts: kuaidial
+Replaces: kuaidial
+Filename: ./debs//com.linspike.kuaidial_1.0.1a2-13-backup_iphoneos-arm.deb
+Size: 804312
+MD5sum: 17e11405723f8fe6a5382bf602014bb6
+SHA1: afa97df5659a8ec6261bd6035c39ba2e0538dfd1
+SHA256: 84a098d8a7f5d7071ec2149b4c64d19bc84c45366e0fb2a81c5427133b0e9766
 Section: Tweaks
 Priority: optional
 Description: adds useful functions to Phone app
