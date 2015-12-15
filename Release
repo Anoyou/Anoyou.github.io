@@ -1,9 +1,8 @@
-Origin: Anoyou’s Repo
-Label: 未闻花名
+﻿Origin: Anoyou
+Label: Anoyou's repo
 Suite: stable
 Version: 1.0
 Codename: Anoyou
 Architectures: iphoneos-arm
 Components: main
-Description: 未闻花名
-MD5Sum: 
+Description: Anoyou's Cydia Repository

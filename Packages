@@ -1,13 +1,15 @@
-Package: com.anoyou.dbcountertest
-Version: 2.1-12
+﻿Package: com.creatix.classicuniversalforce
+
+Version: 0.0.1-132
 Architecture: iphoneos-arm
-Maintainer: Anoyou <jzy0816@gmail.com>
-Filename: debs//com.anoyou.dbcountertest.deb
-Size: 16034
-MD5sum: a91a493bcf04129dacfb9fdb86c611e7
-SHA1: 880cc43d5d800b6f342aa1caf19e2befd9e6f9ce
-Section: tweaks
-Description: none.
+Maintainer: Creatix
+Depends: mobilesubstrate
+Filename: debs//com.creatix.classicuniversalforce_0.0.1-132
+Installed-Size: 197
+MD5sum: 5D814E669CD9E7177AB4274E15A8D0D5
+SHA1: 15B5F33C8BE2F3BCA78483D0D84AB01C75FC42AE
+Section: Tweaks
+Description: classic universalforce.
 Author: Anoyou <jzy0816@gmail.com>
-Depiction: http://Anoyou.github.io/Depic/com.anoyou.dbcountertest/index.html
-Name: 状态栏网速计测试版(DataStatusBarTest)
+Depiction: http://Anoyou.github.io/Depic/com.creatix.classicuniversalforce/index.html
+Name: ClassicUniversalForce
