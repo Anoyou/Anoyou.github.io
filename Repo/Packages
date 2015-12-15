@@ -4,12 +4,12 @@ Version: 0.0.1-132
 Architecture: iphoneos-arm
 Maintainer: Creatix
 Depends: mobilesubstrate
-Filename: debs//com.creatix.classicuniversalforce_0.0.1-132.deb
+Filename: .///debs/com.creatix.classicuniversalforce_0.0.1-132.deb
 Size: 273744
 MD5sum: 5D814E669CD9E7177AB4274E15A8D0D5
 SHA1: 15B5F33C8BE2F3BCA78483D0D84AB01C75FC42AE
 Section: Tweaks
 Description: classic universalforce.
 Author: Anoyou <jzy0816@gmail.com>
-Depiction: http://Anoyou.github.io/Depic/com.creatix.classicuniversalforce/index.html
+Depiction: http://Anoyou.github.io/Repo/Depic/com.creatix.classicuniversalforce/index.html
 Name: ClassicUniversalForce
