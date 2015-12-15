@@ -1,0 +1,39 @@
+<package>
+	<id>com.decimation.rectangles</id>
+	<name>Full Package</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>com.chewitt.mc</package>
+		<package>winterboard</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Rectangle bubbles for Messages. Looks best with flat bubble edges enabled.</description>
+		<description>Requested by /u/igotmoveslikejagger</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>Rectangles with MC (this is Rectangles, not Brackets)</description>
+			<image>rectangles.jpg</image>
+		</screenshot>			
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>Reddit</name>
+			<url>https://www.reddit.com/u/_Decimation</url>
+		</link>
+		
+		<link>
+			<name>Twitter</name>
+			<url>https://twitter.com/dec1mati0n</url>
+		</link>
+	</links>
+</package>
